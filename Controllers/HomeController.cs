@@ -4,6 +4,7 @@ namespace GuitarShop.Controllers
 {
     public class HomeController : Controller
     {
+        // GET: Home
         public IActionResult Index()
         {
             return View();
